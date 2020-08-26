@@ -10,32 +10,49 @@ namespace IterationStatements
             //TODO
 
             //Create a List called "numbers" - DONE
+
             var numbers = new List<int>();
             
-            //Create a variable of type int and initialize the variable with a value of 0
+            //Create a variable of type int and initialize the variable with a value of 0 - Done
 
+            var num = 0;
 
 
             // Create a do-while loop
-            {
-                // Increment your variable by 1
-                // Then add your variable to "numbers"
-            }
-            // While your variable is less than 100
+            // Increment your variable by 1
+            // Then add your variable to "numbers"
 
+            // While your variable is less than 100   DONE
+
+            do
+            {
+                num++;
+                numbers.Add(num);
+
+            } while (num < 100);
 
 
             // Create a while loop
             // While your variable is less than 200
+
+            // Increment your variable by 1
+            // Then add your variable to "numbers  DONE
+
+            while (num < 200)
             {
-                // Increment your variable by 1
-                // Then add your variable to "numbers"
+                num++;
+                numbers.Add(num);
             }
 
             Console.WriteLine("Increase:");
 
             // Create a foreach loop
             // Write your variable to the console
+
+            foreach(var item in numbers)
+            {
+                Console.WriteLine(item);
+            }
 
             Console.WriteLine("");
             Console.WriteLine("Decrease:");
