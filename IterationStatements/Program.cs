@@ -51,6 +51,7 @@ namespace IterationStatements
 
             foreach(var item in numbers)
             {
+                Console.WriteLine("");
                 Console.WriteLine(item);
             }
 
@@ -62,9 +63,15 @@ namespace IterationStatements
             // in your conditional, as long as i is less than or equal to the length of "numbers"
             // and as long as i is greater than or equal to 0
             // Decrement i by 1
-            {
+            
                 // Write to the console "numbers" at index i
+
+            for(int i = 150; i <= numbers.Count && i >= 0; i--)
+            {
+                Console.WriteLine("");
+                Console.WriteLine($"{numbers[i]}");
             }
+            
         }
     }
 }
